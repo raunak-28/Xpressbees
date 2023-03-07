@@ -1,0 +1,69 @@
+.table-container {
+  display: flex;
+  width: 100vw;
+  height: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  margin-top: 0.2em;
+  width: 70%;
+  border: 0.1rem solid black;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.5em;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(244, 240, 240);
+}
+
+th {
+  background-color: #04aa6d;
+  color: white;
+}
+
+tbody {
+  padding: 2em;
+  margin: 2em;
+}
+
+.warning-msg {
+  color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+  font-size: large;
+  background-color: lightcyan;
+}
+
+.warning-msg > button {
+  margin-top: 1em;
+}
+
+.pageSize {
+  margin-top: 0.2em;
+  display: flex;
+  width: 20%;
+  padding: 0;
+}
+
+.pageSize > input {
+  margin-left: 1em;
+  width: 20%;
+}
+
+.logout-btn {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}

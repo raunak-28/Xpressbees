@@ -1,0 +1,25 @@
+.search {
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: aliceblue;
+  padding: 1em;
+}
+
+.search-ele {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2em;
+  justify-content: space-between;
+}
+
+.search-ele > select {
+  margin: 0;
+}
+
+.search-btn {
+  margin: 1em 1em;
+  padding: 0.2em;
+  width: auto;
+}
